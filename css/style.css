@@ -454,6 +454,59 @@ form .mb-3{
 
 /*** Footer ***/
 
+.fixedcart {
+        position: fixed;
+        top: 85%;
+        right: 47px;
+        transform: translateY(-50%);
+      
+}
+
+/***Responsive**/
+
+@media (max-width: 1199.98px) {
+    .fixedcart {
+        position: fixed;
+        top: 85%;
+        right: 47px;
+        transform: translateY(-50%);
+      
+}
+  }
+  
+  /* Media query for iPads */
+  @media (max-width: 1023.98px) {
+    .fixedcart {
+        position: fixed;
+        top: 85%;
+        right: 47px;
+        transform: translateY(-50%);
+      
+}
+  }
+  
+  /* Media query for mobile phones */
+  @media (max-width: 767.98px) {
+    .fixedcart {
+        position: fixed;
+        top: 85%;
+        right: 47px;
+        transform: translateY(-50%);
+      
+}
+  }
+  
+  /* Media query for small mobile phones */
+  @media (max-width: 479.98px) {
+    .fixedcart {
+        position: fixed;
+        top: 85%;
+        right: 47px;
+        transform: translateY(-50%);
+      
+}
+  }
+
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
