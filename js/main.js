@@ -169,7 +169,7 @@ function handleCartClick() {
     if (cart.length === 0) {
         alert('Your cart is empty.');
     } else {
-        alert('You have items in your cart. Click on the checkout button to proceed.');
+        alert('You have items in your cart. Confirm to proceed.');
     }
 }
 
@@ -184,8 +184,6 @@ const customAlert = document.getElementById('custom-alert');
     });
 
     document.querySelector(".checkout-button").addEventListener("click", function() {
-        // Implement your checkout procedure here.
-        // ...
     });
 
     // Added event listener for the close button
